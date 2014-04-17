@@ -67,9 +67,8 @@
       <file leaf-file-name="NodeClientTest.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/elasticsearch/test/NodeClientTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="31" selection-start="987" selection-end="987" vertical-scroll-proportion="0.4940978" vertical-offset="167" max-vertical-offset="900">
+            <state line="21" column="71" selection-start="690" selection-end="690" vertical-scroll-proportion="0.25801012" vertical-offset="167" max-vertical-offset="900">
               <folding>
-                <element signature="e#666#965#0" expanded="true" />
                 <element signature="e#954#955#0" expanded="true" />
               </folding>
             </state>
@@ -183,7 +182,7 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="4097" />
+    <option name="x" value="2731" />
     <option name="y" value="-7" />
     <option name="width" value="1368" />
     <option name="height" value="776" />
@@ -773,15 +772,15 @@
       <updated>1397620664722</updated>
       <workItem from="1397621586246" duration="13902000" />
       <workItem from="1397698873070" duration="11199000" />
-      <workItem from="1397714447797" duration="10391000" />
+      <workItem from="1397714447797" duration="11107000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35492000" />
+    <option name="totallyTimeSpent" value="36208000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="4097" y="-7" width="1368" height="776" extended-state="6" />
+    <frame x="2731" y="-7" width="1368" height="776" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -865,7 +864,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="44" column="0" selection-start="1344" selection-end="1344" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1000">
           <folding>
-            <element signature="e#666#965#0" expanded="true" />
             <element signature="e#954#955#0" expanded="true" />
           </folding>
         </state>
@@ -1110,9 +1108,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/elasticsearch/test/NodeClientTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="31" selection-start="987" selection-end="987" vertical-scroll-proportion="0.4940978" vertical-offset="167" max-vertical-offset="900">
+        <state line="21" column="71" selection-start="690" selection-end="690" vertical-scroll-proportion="0.25801012" vertical-offset="167" max-vertical-offset="900">
           <folding>
-            <element signature="e#666#965#0" expanded="true" />
             <element signature="e#954#955#0" expanded="true" />
           </folding>
         </state>
