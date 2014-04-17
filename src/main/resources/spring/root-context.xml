@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+    这个是主要用于测试Spring Aop的支持自定义注解的操作测试类
+-->
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:util="http://www.springframework.org/schema/util" xmlns:task="http://www.springframework.org/schema/task"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop.xsd
+        http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd
+        http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util.xsd http://www.springframework.org/schema/task http://www.springframework.org/schema/task/spring-task.xsd">
+
+    <!-- spring注解的支持 -->
+    <context:annotation-config />
+    <context:component-scan base-package="com.elasticsearch.model"/>
+
+    <!-- 资源文件配置 -->
+    <util:properties id="app" location="classpath:spring/app.properties"/>
+
+    <!--
+    <context:component-scan base-package="com.annotation.* , com.rabbit.*"/>
+    <util:properties id="app" location="classpath:app.properties"/>
+    -->
+
+    <!-- 提供Spring Aop的支持 -->
+    <aop:aspectj-autoproxy/>
+</beans>
